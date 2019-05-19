@@ -1,4 +1,4 @@
-name: dartmon
+name: dartman
 author: Loïc Nestler <me@lcnr.io>
 version: 1.0.0
 homepage: https://github.com/loicnestler
@@ -11,4 +11,4 @@ dependencies:
   ansicolor: ^1.0.2
 
 executables:
-  dartmon: main
+  dartman: main
