@@ -12,3 +12,4 @@ dependencies:
 
 executables:
   dartman: main
+  dm: main
