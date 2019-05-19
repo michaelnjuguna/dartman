@@ -1,0 +1,10 @@
+name: dartmon
+description: A simple file watcher for dart applications.
+environment:
+  sdk: '>=2.2.0 <3.0.0'
+
+dependencies:
+  ansicolor: ^1.0.2
+
+executables:
+  dartmon: main
