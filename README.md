@@ -1,7 +1,7 @@
 # dartman
 > A simple file watcher for your next dart app
 
-This project is heavily inspired by [nodemon](https://github.com/remy/nodemon) (as you can tell from the name)
+This project is heavily inspired by [nodemon](https://github.com/remy/nodemon)
 
 ## Installation
 `pub global activate dartman`
