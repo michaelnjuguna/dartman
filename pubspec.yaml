@@ -1,4 +1,8 @@
 name: dartmon
+author: Loïc Nestler <me@lcnr.io>
+version: 1.0.0
+homepage: https://github.com/loicnestler
+
 description: A simple file watcher for dart applications.
 environment:
   sdk: '>=2.2.0 <3.0.0'
