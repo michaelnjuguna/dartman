@@ -12,7 +12,7 @@ main(List<String> arguments) {
   bool debug = arguments.contains('--debug');
   String filename;
   Process lastProcess;
-  filename = arguments.length > 0 ? arguments[0] : './main.dart';
+  filename = arguments.isNotEmpty ? arguments[0] : './main.dart';
 
   File file = new File(filename);
 
