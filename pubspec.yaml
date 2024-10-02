@@ -5,7 +5,7 @@ homepage: https://github.com/loicnestler
 
 description: dartman will watch for changes in your projects root directory and restart your app everytime you edit something.
 environment:
-  sdk: '>=2.2.0 <3.0.0'
+  sdk: ">=2.2.0 <4.0.0"
 
 dependencies:
   ansicolor: ^1.0.2
