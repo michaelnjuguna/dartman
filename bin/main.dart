@@ -11,7 +11,7 @@ main(List<String> arguments) {
   int count = 0;
   bool debug = arguments.contains('--debug');
   String filename;
-  Process lastProcess;
+  Process? lastProcess;
   filename = arguments.isNotEmpty ? arguments[0] : './main.dart';
 
   File file = new File(filename);
@@ -25,7 +25,7 @@ main(List<String> arguments) {
 
   startProcess() {
     if (lastProcess != null) {
-      lastProcess.kill(ProcessSignal.sigkill);
+      lastProcess!.kill(ProcessSignal.sigkill);
     }
 
     Process.start('dart', [filename]).then((Process process) async {
